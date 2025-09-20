@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
+import ServiceCategories from "@/components/ServiceCategories";
 import FeaturedDeals from "@/components/FeaturedDeals";
 import Features from "@/components/Features";
 import { Button } from "@/components/ui/button";
@@ -27,6 +28,7 @@ const Index = () => {
       <Header />
       <main>
         <Hero />
+        <ServiceCategories />
         <FeaturedDeals />
         <Features />
         
@@ -61,21 +63,24 @@ const Index = () => {
               </p>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Features</h4>
+              <h4 className="font-semibold mb-4">Categories</h4>
               <ul className="space-y-2 text-sm text-background/70">
-                <li>Price Comparison</li>
-                <li>Review Analysis</li>
-                <li>Price Predictions</li>
-                <li>Local Deals</li>
+                <li>Electronics & Gadgets</li>
+                <li>Fashion & Lifestyle</li>
+                <li>Groceries & Essentials</li>
+                <li>Food Delivery</li>
+                <li>Quick Commerce</li>
+                <li>Transportation</li>
               </ul>
             </div>
             <div>
-              <h4 className="font-semibold mb-4">Support</h4>
+              <h4 className="font-semibold mb-4">Popular Apps</h4>
               <ul className="space-y-2 text-sm text-background/70">
-                <li>Help Center</li>
-                <li>Contact Us</li>
-                <li>Privacy Policy</li>
-                <li>Terms of Service</li>
+                <li>Flipkart & Amazon</li>
+                <li>Zomato & Swiggy</li>
+                <li>BlinkIt & Zepto</li>
+                <li>BigBasket & Grofers</li>
+                <li>Myntra & Ajio</li>
               </ul>
             </div>
             <div>

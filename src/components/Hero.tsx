@@ -12,8 +12,8 @@ const Hero = () => {
             <span className="text-yellow-300">Comparison Platform</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 leading-relaxed">
-            Compare prices across Flipkart, Amazon India, Myntra, and thousands of Indian retailers. 
-            Get AI-powered reviews and discover local store deals near you.
+            Compare prices across Flipkart, Amazon India, BigBasket, Swiggy, Zomato, BlinkIt, Zepto 
+            and thousands of Indian retailers. Get the best deals on everything from electronics to groceries.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">

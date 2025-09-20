@@ -30,7 +30,7 @@ const Header = () => {
               <Search className="absolute left-3 top-1/2 transform -translate-y-1/2 text-muted-foreground w-4 h-4" />
               <Input
                 type="text"
-                placeholder="Search for products across Flipkart, Amazon India & more..."
+                placeholder="Search across Flipkart, Amazon, BigBasket, Zomato, Swiggy & more..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
                 className="pl-10 pr-4 py-2 w-full bg-background border-border focus:ring-2 focus:ring-primary focus:border-primary"
@@ -52,6 +52,12 @@ const Header = () => {
             </Button>
             <Button variant="ghost" size="sm">
               Fashion
+            </Button>
+            <Button variant="ghost" size="sm">
+              Groceries
+            </Button>
+            <Button variant="ghost" size="sm">
+              Food Delivery
             </Button>
             <Button variant="ghost" size="sm">
               Local Stores
