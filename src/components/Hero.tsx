@@ -7,13 +7,13 @@ const Hero = () => {
       <div className="container mx-auto text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-            Find the Best Deals,
+            India's Smartest Price 
             <br />
-            <span className="text-yellow-300">Compare Smart</span>
+            <span className="text-yellow-300">Comparison Platform</span>
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 leading-relaxed">
-            Compare prices across thousands of retailers, get AI-powered review insights, 
-            and discover local deals - all in one place.
+            Compare prices across Flipkart, Amazon India, Myntra, and thousands of Indian retailers. 
+            Get AI-powered reviews and discover local store deals near you.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-16">
@@ -40,7 +40,7 @@ const Hero = () => {
             <div className="flex flex-col items-center text-center p-6 rounded-lg bg-primary-foreground/10 backdrop-blur-sm">
               <MapPin className="w-8 h-8 mb-3 text-yellow-300" />
               <h3 className="font-semibold mb-2">Local Deals</h3>
-              <p className="text-sm text-primary-foreground/80">Find nearby store discounts</p>
+              <p className="text-sm text-primary-foreground/80">Find nearby store discounts in your city</p>
             </div>
             <div className="flex flex-col items-center text-center p-6 rounded-lg bg-primary-foreground/10 backdrop-blur-sm">
               <Shield className="w-8 h-8 mb-3 text-yellow-300" />

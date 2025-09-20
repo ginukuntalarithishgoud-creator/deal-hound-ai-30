@@ -65,9 +65,9 @@ const ProductCard = ({ product }: ProductCardProps) => {
         {/* Price Range */}
         <div className="flex items-center justify-between">
           <div>
-            <p className="text-2xl font-bold text-success">${product.lowestPrice.toFixed(2)}</p>
+            <p className="text-2xl font-bold text-success">₹{product.lowestPrice.toLocaleString('en-IN')}</p>
             <p className="text-sm text-muted-foreground">
-              from ${product.highestPrice.toFixed(2)}
+              from ₹{product.highestPrice.toLocaleString('en-IN')}
             </p>
           </div>
           <div className="flex items-center gap-1">
@@ -99,7 +99,7 @@ const ProductCard = ({ product }: ProductCardProps) => {
                 )}
               </div>
               <div className="flex items-center gap-2">
-                <span className="font-semibold">${deal.price.toFixed(2)}</span>
+                <span className="font-semibold">₹{deal.price.toLocaleString('en-IN')}</span>
                 {!deal.inStock && (
                   <Badge variant="destructive" className="text-xs py-0">
                     Out of Stock

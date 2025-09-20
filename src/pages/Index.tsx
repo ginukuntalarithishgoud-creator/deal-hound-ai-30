@@ -34,10 +34,10 @@ const Index = () => {
         <section className="py-20 px-4 bg-gradient-primary text-primary-foreground">
           <div className="container mx-auto text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              Ready to Save Money?
+              India's Best Price Comparison
             </h2>
             <p className="text-xl mb-8 text-primary-foreground/90 max-w-2xl mx-auto">
-              Join thousands of smart shoppers who use Compare & Buy to find the best deals every day.
+              Join lakhs of Indian shoppers who save money every day by comparing prices across all major e-commerce platforms.
             </p>
             <Button 
               size="lg" 

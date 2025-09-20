@@ -3,23 +3,23 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Zap } from "lucide-react";
 
 const FeaturedDeals = () => {
-  // Mock data for demonstration
+  // Mock data for Indian market
   const featuredProducts = [
     {
       id: "1",
       name: "Apple iPhone 15 Pro Max 256GB Natural Titanium",
       image: "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=400&h=300&fit=crop",
       category: "Smartphones",
-      lowestPrice: 1099.99,
-      highestPrice: 1299.99,
+      lowestPrice: 89900,
+      highestPrice: 104900,
       averageRating: 4.6,
       reviewCount: 2847,
       priceChange: -3.2,
       deals: [
-        { retailer: "Amazon", price: 1099.99, rating: 4.8, inStock: true },
-        { retailer: "Best Buy", price: 1149.99, rating: 4.5, inStock: true, isLocal: true, distance: "2.3 mi" },
-        { retailer: "Apple Store", price: 1199.99, rating: 4.9, inStock: false },
-        { retailer: "B&H Photo", price: 1179.99, rating: 4.7, inStock: true },
+        { retailer: "Flipkart", price: 89900, rating: 4.8, inStock: true },
+        { retailer: "Amazon India", price: 92999, rating: 4.7, inStock: true },
+        { retailer: "Vijay Sales", price: 95999, rating: 4.5, inStock: true, isLocal: true, distance: "2.3 km" },
+        { retailer: "Croma", price: 98999, rating: 4.6, inStock: false, isLocal: true, distance: "1.8 km" },
       ]
     },
     {
@@ -27,15 +27,15 @@ const FeaturedDeals = () => {
       name: "Sony WH-1000XM5 Wireless Noise Canceling Headphones",
       image: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop",
       category: "Audio",
-      lowestPrice: 349.99,
-      highestPrice: 399.99,
+      lowestPrice: 24990,
+      highestPrice: 29990,
       averageRating: 4.8,
       reviewCount: 1523,
       priceChange: 1.5,
       deals: [
-        { retailer: "Costco", price: 349.99, rating: 4.6, inStock: true, isLocal: true, distance: "5.1 mi" },
-        { retailer: "Amazon", price: 379.99, rating: 4.8, inStock: true },
-        { retailer: "Target", price: 389.99, rating: 4.4, inStock: true, isLocal: true, distance: "3.7 mi" },
+        { retailer: "Amazon India", price: 24990, rating: 4.8, inStock: true },
+        { retailer: "Flipkart", price: 26999, rating: 4.7, inStock: true },
+        { retailer: "Reliance Digital", price: 27999, rating: 4.4, inStock: true, isLocal: true, distance: "3.2 km" },
       ]
     },
     {
@@ -43,15 +43,15 @@ const FeaturedDeals = () => {
       name: "MacBook Air 15-inch M3 Chip 8GB RAM 256GB SSD",
       image: "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=400&h=300&fit=crop",
       category: "Laptops",
-      lowestPrice: 1199.99,
-      highestPrice: 1399.99, 
+      lowestPrice: 114900,
+      highestPrice: 134900, 
       averageRating: 4.7,
       reviewCount: 856,
       priceChange: -1.8,
       deals: [
-        { retailer: "Education Store", price: 1199.99, rating: 4.9, inStock: true },
-        { retailer: "Amazon", price: 1249.99, rating: 4.7, inStock: true },
-        { retailer: "Best Buy", price: 1299.99, rating: 4.5, inStock: true, isLocal: true, distance: "2.3 mi" },
+        { retailer: "Amazon India", price: 114900, rating: 4.7, inStock: true },
+        { retailer: "Flipkart", price: 118999, rating: 4.6, inStock: true },
+        { retailer: "Croma", price: 124900, rating: 4.5, inStock: true, isLocal: true, distance: "1.8 km" },
       ]
     }
   ];
